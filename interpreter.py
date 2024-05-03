@@ -119,11 +119,11 @@ apps: list['Application'] = [NT, NF, NNT, NNNT, TORF, FORF, FANDT, TANDT]
 if __name__ == '__main__':
     print()
     print("\033[1mLambda Expressions\033[0m")
-    print(f"True: {T}")
-    print(f"False: {F}")
-    print(f"And: {AND}")
-    print(f"Or: {OR}")
-    print(f"Not: {NOT}")
+    print(f"TRUE: {T}")
+    print(f"FALSE: {F}")
+    print(f"AND: {AND}")
+    print(f"OR: {OR}")
+    print(f"NOT: {NOT}")
     print()
     print("\033[1mApplications and their evaluations\033[0m")
     for n in range(len(apps)):
